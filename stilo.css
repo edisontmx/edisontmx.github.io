@@ -314,16 +314,16 @@ html{
 }
 @keyframes javascript{
     0%{width: 0%;}
-    100%{width: 57%;}
+    100%{width: 50%;}
 }
 
-.skills .skill .HTML{
+.skills .skill .nodejs{
     width: 0;
-    animation: 2s HTML forwards;
+    animation: 2s nodejs forwards;
 }
-@keyframes HTML{
+@keyframes nodejs{
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 45%;}
 }
 .skills .skill .PHP{
     width: 0;
