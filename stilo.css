@@ -323,15 +323,15 @@ html{
 }
 @keyframes nodejs{
     0%{width: 0%;}
-    100%{width: 45%;}
+    100%{width: 50%;}
 }
-.skills .skill .PHP{
+.skills .skill .golang{
     width: 0;
-    animation: 2s PHP forwards;
+    animation: 2s golang forwards;
 }
-@keyframes PHP{
+@keyframes golang{
     0%{width: 0%;}
-    100%{width: 57%;}
+    100%{width: 60%;}
 }
 .skills .skill .Python{
     width: 0;
@@ -339,15 +339,47 @@ html{
 }
 @keyframes Python{
     0%{width: 0%;}
-    100%{width: 57%;}
+    100%{width: 40%;}
 }
-.skills .skill .Go{
+.skills .skill .react{
     width: 0;
-    animation: 2s Go forwards;
+    animation: 2s react forwards;
 }
-@keyframes Go{
+@keyframes react{
     0%{width: 0%;}
-    100%{width: 57%;}
+    100%{width: 30%;}
+}
+.skills .skill .mysql{
+    width: 0;
+    animation: 2s mysql forwards;
+}
+@keyframes mysql{
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+.skills .skill .mongo{
+    width: 0;
+    animation: 2s mongo forwards;
+}
+@keyframes mongo{
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+.skills .skill .github{
+    width: 0;
+    animation: 2s github forwards;
+}
+@keyframes github{
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+.skills .skill .docker{
+    width: 0;
+    animation: 2s docker forwards;
+}
+@keyframes docker{
+    0%{width: 0%;}
+    100%{width: 20%;}
 }
 .skills .skill .equipo{
     width: 0;
@@ -355,39 +387,39 @@ html{
 }
 @keyframes equipo{
     0%{width: 0%;}
-    100%{width: 57%;}
+    100%{width: 100%;}
 }
-.skills .skill .creatividad{
+.skills .skill .activo{
     width: 0;
-    animation: 2s creatividad forwards;
+    animation: 2s activo forwards;
 }
-@keyframes creatividad{
+@keyframes activo{
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 100%;}
 }
-.skills .skill .comunicacion{
+.skills .skill .auto{
     width: 0;
-    animation: 2s comunicacion forwards;
+    animation: 2s auto forwards;
 }
-@keyframes comunicacion{
+@keyframes auto{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 100%;}
 }
-.skills .skill .PM{
+.skills .skill .result{
     width: 0;
-    animation: 2s PM forwards;
+    animation: 2s result forwards;
 }
-@keyframes PM{
+@keyframes result{
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 100%;}
 }
-.skills .skill .dedicacion{
+.skills .skill .dedicado{
     width: 0;
-    animation: 2s dedicacion forwards;
+    animation: 2s dedicado forwards;
 }
-@keyframes dedicacion{
+@keyframes dedicado{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 100%;}
 }
 /* seccion curriculum */
 .curriculum{
@@ -413,6 +445,7 @@ html{
     display: flex;
     justify-content: space-between;
 }
+
 .curriculum .fila .col{
     width: 49%;
     padding: 0 20px;
